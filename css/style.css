@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+*{
+	outline: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.form-data form{
+	box-shadow: 1px 2px 6px rgba(0,0,0,0.5);
+    margin-top: 45px;
+}
+.content .form-section form{
+	box-shadow: 1px 2px 6px rgba(0,0,0,0.5);
+    padding: 30px;
+}
+.content .form-section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.form-data {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#footer{
+	padding: 20px;
+	margin: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f1f2f6;
+	border-radius: 10px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+	padding: 5px 18px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link:hover{
+	color: #341f97;
+}
+.sidebar{
+	background-color: #f8f9fa;
+	padding: 0;
+	height: 100vh;
+}
+.card-section .card-body .card-title{
+	font-size: 18px;
+	font-family: monospace;
+}
+.card-section .card-body .card-text{
+	font-size: 30px;
+	font-weight: bold;
+	color: #007bff;
+	font-family: monospace;
+}
+.card-section .card-header{
+	letter-spacing: 1px;
+}
+.card-section .card-footer{
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.card-section .card-footer .btn{
+	font-size: 12px;
+	font-weight: 600;
+	box-shadow: 1px 2px 6px rgba(0,0,0,0.2);
+}
+.table-content{
+	font-size: 12px;
+}
