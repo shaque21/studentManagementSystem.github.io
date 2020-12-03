@@ -43,7 +43,7 @@
 					<tr>
 						<td class="font-weight-bold"><label for="roll">Roll</label></td>
 						<td>
-							<input type="text" name="roll" id="roll" placeholder="Enter Roll [min 8 digit from 0 to 9]" class="form-control" pattern="[0-9]{7}" required>
+							<input type="text" name="roll" id="roll" placeholder="Enter Roll [min 7 digit from 0 to 9]" class="form-control" pattern="[0-9]{7}" required>
 						</td>
 					</tr>
 					<tr>
